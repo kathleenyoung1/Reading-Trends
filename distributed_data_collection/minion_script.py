@@ -301,13 +301,11 @@ class Dual_Minion():
         print("All data collected. terminating")
         sys.exit()
 
-#TESTING
-
-# for local:
+#LOCAL
 #host = "localhost"
 #review_port, book_port = 8080, 80
 
-# for distributed system:
+#AWS DISTRIBUTED
 host = '52.14.142.88'
 review_port, book_port = 6000, 7000
 

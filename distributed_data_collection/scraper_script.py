@@ -31,9 +31,6 @@ class Scraper():
 
         return self.webpage_string
 
-    #def webpage_bytes_to_html_binary(self, file_name):
-        #open(file_name+".html", "wb").write(self.webpage_bytes) ## DELETE THIS
-
     def webpage_string_to_html_regular(self, file_name):
 
         open(file_name+".html", "w").write(self.webpage_string)

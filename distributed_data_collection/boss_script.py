@@ -4,10 +4,6 @@
     #CALL KICKOFF METHOD
     #YOU HAVE TO CLICK CTRL-C TWICE TO TERMINATE.
 
-#TO-DO LIST:
-    #FIX BUG WITH DATA LOG READING
-    #ADD EMAIL ALERTS
-
 #import libraries
 import bottle
 from bottle import route, run, template, post, get, request
@@ -297,13 +293,11 @@ class Dual_Boss():
         print("All data collected. terminating")
         sys.exit()
 
-#TESTING
-
-# for local:
+#LOCAL
 #host = "localhost"
 #review_port, book_port = 8080, 80
 
-# for distributed system:
+#AWS DISTRIBUTED
 host = '172.31.47.154'
 review_port, book_port = 6000, 7000
 
