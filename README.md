@@ -13,4 +13,5 @@ If you'd like to take a look, I would recommend starting with the final paper fi
    - The modeling folder contains the models that we built based on the data: the base_model file represents the first baseline model that we built. The monthly_2020_models represent a more nuanced approach to the problem: the feature_selection file shows how we decided which features to include, and the other monthly_2020 files capture versions of the models built with different feature sets. The aggregator file supports the modeling process by cleaning and aggregating data sources.
 
 Language: Python
-Packages: Beautiful Soup (bs4), Bottle, Json, Matplotlib, Natural Language Toolkit (nltk), Numpy, Pandas, Regular Expressions, Requests, Seaborn, Sklearn. 
+
+Packages: Beautiful Soup (bs4), Bottle, Json, Matplotlib, Natural Language Toolkit (nltk), Numpy, Pandas, Regular Expressions, Requests, Seaborn, Sklearn.
